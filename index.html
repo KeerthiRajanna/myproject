@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Button</title>
+	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+	<section class="sec1">
+		
+<button class="block1"> Button</button>
+<div>
+<p class="txt" >MY BUTTON COLOR IS <span id="color"></span></p>
+</div>
+<button class="block2" > Button</button>
+
+</section>
+</body>
+<script>
+	$(".block1").click(function(){
+		$('#color').text("YELLOW");
+	});
+	$(".block2").click(function(){
+		$('#color').text("RED");
+	});
+
+
+</script>
+</html>
